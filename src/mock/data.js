@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'This is my personal website just to show what I am doing',
-  paragraphTwo: 'I am currently a freshman at Virginia Commonwealth University',
-  paragraphThree: 'I am majoring in sociology but I also do other things like photography and some CS projects!',
+  paragraphTwo: 'I am currently a sophmore at Virginia Commonwealth University',
+  paragraphThree: 'I am majoring in mathematical sciences with a concentration in statistics but I also do other things like photography and some CS projects!',
   resume: 'https://www.linkedin.com/in/ashfin-enayet-59b0001b4/', // if no resume, the button will not show up
 };
 
@@ -38,11 +38,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'TBD',
-    info: 'coming soon',
-    
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    title: 'County and State Map of Rural and Urban States',
+    info: 'Map that visualizes how rural and urban a state is',
+    info2: 'It  has county level and statewide data ',
+    repo: 'https://github.com/ashfinenayet/map', // if no repo, the button will not show up
   },
 
 ];
@@ -70,7 +69,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ashfin-enayet-59b0001b4/',
     },
     {
       id: nanoid(),
